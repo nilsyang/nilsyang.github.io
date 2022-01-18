@@ -1,3 +1,6 @@
+layout: page
+title: Fan Nils Yang
+
 
 Google scholar: https://scholar.google.com/citations?user=sHvN8soAAAAJ&hl=en
 
