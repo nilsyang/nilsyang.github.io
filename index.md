@@ -1,6 +1,3 @@
-layout: page
-title: "nilsyang"
-permalink: /about/
 
 Google scholar: https://scholar.google.com/citations?user=sHvN8soAAAAJ&hl=en
 
