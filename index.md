@@ -5,7 +5,6 @@
 
 ## Contact Information
 Email:				nilsyang106@gmail.com 
-Foreign Languages: 		Chinese
 
 ## Education 
 ```
