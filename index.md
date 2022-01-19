@@ -8,24 +8,24 @@ Email:				nilsyang106@gmail.com
 Foreign Languages: 		Chinese
 
 ## Education 
-...
+```
 2006 – 2010	B.S., Chemistry & Clinical Psychology, Southwest University, Chongqing, China
 2011 – 2014	M.S., Biological Psychology, Capital Normal University, Beijing, China
 2014 – 2018	Ph.D., Cognitive Neuroscience, Sun Yat-Sen University, Guangzhou, China, Thesis Advisor: Hengyi Rao, “Neural Correlates of Vigilant Attention and Its influence Factors”
 2015– 2018	Visiting Student, Department of Neurology & Center for Functional Neuroimaging, University of Pennsylvania, Advisors: John A. Detre & Hengyi Rao
-...
+```
 
 ## Employment History 
-...
+```
 Academic Appointments 
 2018 - 2021	      Postdoctoral Fellowship, Georgetown University 
 2021 - present    Postdoctoral Fellowship, University of Maryland, Baltimore
-...
+```
 
 ## National Service 
-...
+```
 2018-present	Ad Hoc Reviewer, Frontiers in Human Neuroscience (1x), Journal of Magnetic Resonance Imaging (1x), Network Neuroscience (1x), Psychological Medicine (1x)
-...
+```
 
 
 ## Publications 
