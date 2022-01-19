@@ -1,42 +1,35 @@
-# Fan Nils Yang
 
 
-Google scholar: https://scholar.google.com/citations?user=sHvN8soAAAAJ&hl=en
+#### [Link to Google Scholar profile] (https://scholar.google.com/citations?user=sHvN8soAAAAJ&hl=en).
+#### [Link to ORCID page](https://orcid.org/0000-0003-2565-6594).
 
-
-Contact Information
+## Contact Information
 Email:				nilsyang106@gmail.com 
 Foreign Languages: 		Chinese
 
-Education 
+## Education 
+...
 2006 – 2010	B.S., Chemistry & Clinical Psychology, Southwest University, Chongqing, China
 2011 – 2014	M.S., Biological Psychology, Capital Normal University, Beijing, China
 2014 – 2018	Ph.D., Cognitive Neuroscience, Sun Yat-Sen University, Guangzhou, China, Thesis Advisor: Hengyi Rao, “Neural Correlates of Vigilant Attention and Its influence Factors”
 2015– 2018	Visiting Student, Department of Neurology & Center for Functional Neuroimaging, University of Pennsylvania, Advisors: John A. Detre & Hengyi Rao
+...
 
-Employment History 
+## Employment History 
+...
 Academic Appointments 
-2018-2021	Postdoctoral Fellowship, Georgetown University 
-Professional Society Membership 
-2015-2020	General Member, Society for Neuroscience
+2018 - 2021	      Postdoctoral Fellowship, Georgetown University 
+2021 - present    Postdoctoral Fellowship, University of Maryland, Baltimore
+...
 
-Honors And Awards 
-2007	Undergraduate Research Fellowship, Southwest University
-2013	Postgraduate Research Fellowship, Capital Normal University 
-2015	International Program Fellowship for Ph.D. Candidates, Sun Yat-Sen University 
-2018	Fellowship, Summer School in Computational Sensory-Motor Neuroscience 
-
-National Service 
+## National Service 
+...
 2018-present	Ad Hoc Reviewer, Frontiers in Human Neuroscience (1x), Journal of Magnetic Resonance Imaging (1x), Network Neuroscience (1x), Psychological Medicine (1x)
+...
 
-Teaching Service 
-Post-Graduate Teaching 
-2014	Teaching assistant, Experimental Psychology, Sun Yat-Sen University 
-2015	Teaching assistant, Cognitive Psychology, Sun Yat-Sen University 
-2015	Teaching assistant, Ecological Psychology, Sun Yat-Sen University
 
-Publications 
-Peer-reviewed journal articles 
+## Publications 
+## Peer-reviewed journal articles 
 1.	Zhao, Y., Li, X., Tian, L., & Yang, F. (2013). Social Interaction Influence on Adolescent Rodents' Susceptibility to Drug Addiction. Advances in Psychological Science, 21(12), 2164–2173
 2.	Tian, L., Li, X., Yang, F., & Zhao, Y. (2014) The Effect of Novelty Seeking Behavioral Trait on Susceptibility to Drug Addiction and Its Neurobiological Mechanisms, Advances in Psychological Science, 22(1), 75-85
 3.	Yang, F.N., Pan, S.J., & Li, X. (2016). Beta-adrenoreceptor blockade abolishes atomoxetine-induced Risk Taking, Physiology & Behavior, 153, 125-132.
@@ -53,14 +46,12 @@ Peer-reviewed journal articles
 14.	Bronshteyn, M., Yang, F. N., Shattuck, K. F., Dawson, M., Kumar, P., Moore, D. J., ... & Jiang, X. Depression is associated with hippocampal volume loss in adults with HIV. Human brain mapping.
 15.	Yang, F. N., Hassanzadeh-Behbahani, S., M., Kumar, P., Moore, D. J., Ellis, R.J., Jiang, X. (2021, in press). The impacts of HIV-infection, age, and education on functional brain networks in adults with HIV. Journal of NeuroVirology
 16.	Yang, F. N., Liu, T. T., & Wang, Z. (2021, in press). Functional connectome mediates the association between sleep disturbance and mental health in preadolescence. Human brain mapping.
-Submitted or In-Revision Peer-reviewed journal articles
+
+## Submitted or In-Revision Peer-reviewed journal articles
 1.	Yang, F.N.*, Xie, L.*, Galli, O., Detre, J. A., Wolk, D. A., & Rao, H. (2019). Preserved global cerebral blood flow accounts for youthful processing speed in older adults. bioRxiv, 665935. (*contributed equally)
-2.	Yang, F.N., Xie, W., & Wang, Z. (2021, in preparation). Long-lasting effects of insufficient sleep on neurocognitive development in early adolescence.
+2.	Yang, F.N., Xie, W., & Wang, Z. (2022). Long-lasting effects of insufficient sleep on neurocognitive development in early adolescence. medRxiv.
 
 
 
-
-Explanation of Time Gaps on CV
-2010-2011		Preparing for exams
 
 
