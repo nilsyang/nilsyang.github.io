@@ -48,7 +48,7 @@ Academic Appointments
 
 ## Submitted or In-Revision Peer-reviewed journal articles
 1.	Yang, F.N.*, Xie, L.*, Galli, O., Detre, J. A., Wolk, D. A., & Rao, H. (2019). Preserved global cerebral blood flow accounts for youthful processing speed in older adults. bioRxiv, 665935. (*contributed equally)
-2.	Yang, F.N., Xie, W., & Wang, Z. (2022). Long-lasting effects of insufficient sleep on neurocognitive development in early adolescence. medRxiv.
+2.	Yang, F.N.*, Xie, W.*, & Wang, Z. (2022). Long-lasting effects of insufficient sleep on neurocognitive development in early adolescence. medRxiv. (*contributed equally)
 
 
 
