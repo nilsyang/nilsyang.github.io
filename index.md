@@ -1,4 +1,5 @@
-
+layout: page
+title: "Fan Nils Yang"
 
 #### [Link to Google Scholar profile](https://scholar.google.com/citations?user=sHvN8soAAAAJ&hl=en).
 #### [Link to ORCID page](https://orcid.org/0000-0003-2565-6594).
@@ -18,7 +19,7 @@ Foreign Languages: 		Chinese
 ## Employment History 
 ```
 Academic Appointments 
-2018 - 2021    Postdoctoral Fellowship, Georgetown University 
+2018 - 2021         Postdoctoral Fellowship, Georgetown University 
 2021 - present      Postdoctoral Fellowship, University of Maryland, Baltimore
 ```
 
