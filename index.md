@@ -42,13 +42,12 @@ Academic Appointments
 12.	Yang, F. N., Hassanzadeh-Behbahani, S., Bronshteyn, M., Dawson, M., Kumar, P., Moore, D. J., ... & Jiang, X. (2021). Connectome-based prediction of global cognitive performance in people with HIV. NeuroImage: Clinical, 30, 102677.
 13.	Mao, T., Dinges, D., Deng, Y., Zhao, K., Yang, Z., Lei, H., Fang, Z., Yang, F.N., Galli, O., Goel, N. and Basner, M., 2021. Impaired Vigilant Attention Partly Accounts for Inhibition Control Deficits After Total Sleep Deprivation and Partial Sleep Restriction. Nature and Science of Sleep, 13, p.1545.
 14.	Bronshteyn, M., Yang, F. N., Shattuck, K. F., Dawson, M., Kumar, P., Moore, D. J., ... & Jiang, X. Depression is associated with hippocampal volume loss in adults with HIV. Human brain mapping.
-15.	Yang, F. N., Hassanzadeh-Behbahani, S., M., Kumar, P., Moore, D. J., Ellis, R.J., Jiang, X. (2021, in press). The impacts of HIV-infection, age, and education on functional brain networks in adults with HIV. Journal of NeuroVirology
-16.	Yang, F. N., Liu, T. T., & Wang, Z. (2021, in press). Functional connectome mediates the association between sleep disturbance and mental health in preadolescence. Human brain mapping.
+15.	Yang, F. N., Hassanzadeh-Behbahani, S., M., Kumar, P., Moore, D. J., Ellis, R.J., Jiang, X. (2022). The impacts of HIV-infection, age, and education on functional brain networks in adults with HIV. Journal of NeuroVirology
+16.	Yang, F. N., Liu, T. T., & Wang, Z. (2022). Functional connectome mediates the association between sleep disturbance and mental health in preadolescence. Human brain mapping.
+17.	Yang, F. N.*, Xie, W.*, & Wang, Z. (2022, in press). Long-lasting effects of insufficient sleep on neurocognitive development in early adolescence. Lancet Child & adolescent health. (*contributed equally)
 
 ## Submitted or In-Revision Peer-reviewed journal articles
 1.	Yang, F.N.*, Xie, L.*, Galli, O., Detre, J. A., Wolk, D. A., & Rao, H. (2019). Preserved global cerebral blood flow accounts for youthful processing speed in older adults. bioRxiv, 665935. (*contributed equally)
-2.	Yang, F.N.*, Xie, W.*, & Wang, Z. (2022). Long-lasting effects of insufficient sleep on neurocognitive development in early adolescence. medRxiv. (*contributed equally)
-
 
 
 
