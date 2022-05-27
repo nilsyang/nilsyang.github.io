@@ -44,7 +44,7 @@ Academic Appointments
 14.	Bronshteyn, M., **Yang, F. N.**, Shattuck, K. F., Dawson, M., Kumar, P., Moore, D. J., ... & Jiang, X. Depression is associated with hippocampal volume loss in adults with HIV. Human brain mapping.
 15.	**Yang, F. N.**, Hassanzadeh-Behbahani, S., M., Kumar, P., Moore, D. J., Ellis, R.J., Jiang, X. (2022). The impacts of HIV-infection, age, and education on functional brain networks in adults with HIV. Journal of NeuroVirology
 16.	**Yang, F. N.**, Liu, T. T., & Wang, Z. (2022). Functional connectome mediates the association between sleep disturbance and mental health in preadolescence. Human brain mapping.
-17.	**Yang, F. N.**,1 Xie, W.,1 & Wang, Z. (2022, in press). Long-lasting effects of insufficient sleep on neurocognitive development in early adolescence. Lancet Child & adolescent health. (1 contributed equally)
+17.	**Yang, F. N.**,<sub>1</sub> Xie, W.,<sub>1</sub> & Wang, Z. (2022, in press). Long-lasting effects of insufficient sleep on neurocognitive development in early adolescence. Lancet Child & adolescent health. (1 contributed equally)
 
 ## Submitted or In-Revision Peer-reviewed journal articles
 1.	**Yang, F.N.**,1 Xie, L.,1 Galli, O., Detre, J. A., Wolk, D. A., & Rao, H. (2019). Preserved global cerebral blood flow accounts for youthful processing speed in older adults. bioRxiv, 665935. (1 contributed equally)
