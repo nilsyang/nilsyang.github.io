@@ -16,8 +16,9 @@ Email:				nilsyang106@gmail.com
 ## Employment History 
 ```
 Academic Appointments 
-2018 - 2021         Postdoctoral Fellowship, Georgetown University 
-2021 - present      Postdoctoral Fellowship, University of Maryland, Baltimore
+2018 - 2021         Postdoctoral Fellow, Georgetown University 
+2021 - 2022         Postdoctoral Fellow, University of Maryland, Baltimore
+2023 - Present      Research Fellow, NINDS, NIH
 ```
 
 ## National Service 
