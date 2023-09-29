@@ -47,12 +47,13 @@ Academic Appointments
 16.	**Yang, F. N.**, Liu, T. T., & Wang, Z. (2022). Functional connectome mediates the association between sleep disturbance and mental health in preadolescence. Human brain mapping.
 17.	**Yang, F. N.**,<sup>1</sup> Xie, W.,<sup>1</sup> & Wang, Z. (2022). Effects of sleep duration on neurocognitive development in U.S. early adolescents: a propensity score matched, longitudinal, observational study. Lancet Child & adolescent health. (<sup>1</sup> contributed equally)
 18. Jiang, X., Dahmani, S., Bronshteyn, M., **Yang, F. N.**, Ryan, J. P., Gallagher Jr, R. C., ... & Turkeltaub, P. E. (2022). Cingulate transcranial direct current stimulation in adults with HIV. PloS one, 17(6), e0269491.
-19. **Yang, F. N.**, Liu, T. T., & Wang, Z. Corticostriatal connectivity mediates the reciprocal relationship between sleep and impulsivity in early adolescents. (2023). Journal of Child Psychology and Psychiatry 
+19. **Yang, F. N.**, Liu, T. T., & Wang, Z. Corticostriatal connectivity mediates the reciprocal relationship between sleep and impulsivity in early adolescents. (2023). Journal of Child Psychology and Psychiatry
+20. **Yang, F. N.,** Picchioni, D., & Duyn, J. H. (2023). Effects of sleep-corrected social jetlag on measures of mental health, cognitive ability, and brain functional connectivity in early adolescence. Sleep. (accepted)
 
 
 ## Submitted or In-Revision Peer-reviewed journal articles
 1.	**Yang, F.N.**,<sup>1</sup> Xie, L.,<sup>1</sup> Galli, O., Detre, J. A., Wolk, D. A., & Rao, H. (2019). Preserved global cerebral blood flow accounts for youthful processing speed in older adults. bioRxiv, 665935. (<sup>1</sup> contributed equally)
-2.	**Yang, F. N.,** Picchioni, D., & Duyn, J. H. (2023). The effect of sleep-corrected social jetlag on crystalized intelligence, school performance, and functional connectome in early adolescence. medRxiv, 2023-07.
+
 
 
 
