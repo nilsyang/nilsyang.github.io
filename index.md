@@ -1,4 +1,4 @@
-
+## Fan Nils Yang 杨钒
 #### [Link to Google Scholar profile](https://scholar.google.com/citations?user=sHvN8soAAAAJ&hl=en).
 #### [Link to ORCID page](https://orcid.org/0000-0003-2565-6594).
 
@@ -21,9 +21,15 @@ Academic Appointments
 2023 - Present      Research Fellow, NINDS, NIH
 ```
 
+## Additional Training
+```
+Summer 2018          Summer School in Computational Sensory-Motor Neuroscience (CoSMo) - Minneapolis, MN, USA
+			Coordinators: Drs. Gunnar Blohm, Paul Schrater & Konrad Körding
+```
+
 ## National Service 
 ```
-2018-present	Ad Hoc Reviewer, Frontiers in Human Neuroscience/Neurology/ Neuroimaging (3x), Journal of Magnetic Resonance Imaging (1x), Network Neuroscience (1x), Psychological Medicine (1x), BMC neuroscience (1x), Scientific Reports (1x), Human Brain Mapping (1x), Drug and Alcohol Dependence (1x)
+2018-present	Ad Hoc Reviewer, Frontiers in Human Neuroscience/Neurology/ Neuroimaging (3x), Journal of Magnetic Resonance Imaging (1x), Network Neuroscience (1x), Psychological Medicine (1x), BMC Neuroscience (1x), Scientific Reports (1x), Human Brain Mapping (1x), Drug and Alcohol Dependence (1x)
 ```
 
 
