@@ -9,8 +9,8 @@ Email:				nilsyang106@gmail.com
 ```
 2006 – 2010	B.S., Chemistry & Clinical Psychology, Southwest University, Chongqing, China
 2011 – 2014	M.S., Biological Psychology, Capital Normal University, Beijing, China
-2014 – 2018	Ph.D., Cognitive Neuroscience, Sun Yat-Sen University, Guangzhou, China, Thesis Advisor: Hengyi Rao, “Neural Correlates of Vigilant Attention and Its influence Factors”
-2015 – 2018	Visiting Student, Department of Neurology & Center for Functional Neuroimaging, University of Pennsylvania, Advisors: John A. Detre & Hengyi Rao
+2014 – 2018	Ph.D., Cognitive Neuroscience, Sun Yat-Sen University, Guangzhou, China, Thesis Advisor: Hengyi Rao, “Neural Correlates of Vigilant Attention and Its Influence Factors”
+2015 – 2018	Visiting Student, Department of Neurology & Center for Functional Neuroimaging, University of Pennsylvania, Advisors: Hengyi Rao
 ```
 
 ## Employment History 
