@@ -3,35 +3,30 @@
 #### [Link to ORCID page](https://orcid.org/0000-0003-2565-6594).
 
 ## Contact Information
-Email:				nilsyang106@gmail.com 
+Email:				nilsyang106@gmail.com & nils.yang@nih.gov
 
-## Education 
+## Employment
 ```
-2006 – 2010	B.S., Chemistry & Clinical Psychology, Southwest University, Chongqing, China
-2011 – 2014	M.S., Biological Psychology, Capital Normal University, Beijing, China
-2014 – 2018	Ph.D., Cognitive Neuroscience, Sun Yat-Sen University, Guangzhou, China, Thesis Advisor: Hengyi Rao, “Neural Correlates of Vigilant Attention and Its Influence Factors”
-2015 – 2018	Visiting Student, Department of Neurology & Center for Functional Neuroimaging, University of Pennsylvania, Advisors: Hengyi Rao
+2023.1 – present	Research Fellow, NINDS, NIH          
+2021.5 – 2022.12	Postdoctoral Fellow, University of Maryland, Baltimore
+2018.12 – 2021.2	Postdoctoral Fellow, Georgetown University 
 ```
 
-## Employment History 
+## Education
 ```
-Academic Appointments 
-2018 - 2021         Postdoctoral Fellow, Georgetown University 
-2021 - 2022         Postdoctoral Fellow, University of Maryland, Baltimore
-2023 - Present      Research Fellow, NINDS, NIH
+2015.12– 2018.11	Visiting Ph.D. Student, Department of Neurology & Center for Functional Neuroimaging, University of Pennsylvania
+2014.9 – 2018.6	Ph.D., Cognitive Neuroscience, Sun Yat-Sen University, Guangzhou, China, 
+2011.9 – 2014.6		M.S., Biological Psychology, Capital Normal University, Beijing, China
+2006.9 – 2010.6		B.S., Chemistry & Clinical Psychology, Southwest University, Chongqing, China
 ```
 
 ## Additional Training
 ```
-Summer 2018          Summer School in Computational Sensory-Motor Neuroscience (CoSMo) - Minneapolis, MN, USA
+2023			Scientist Teaching Science (9-week online course)
+			Instructor: Nik Barkauskas
+2018 			Summer School in Computational Sensory-Motor Neuroscience (CoSMo), Minneapolis, MN, USA
 			Coordinators: Drs. Gunnar Blohm, Paul Schrater & Konrad Körding
 ```
-
-## National Service 
-```
-2018-present	Ad Hoc Reviewer, Frontiers in Human Neuroscience/Neurology/ Neuroimaging (3x), Journal of Magnetic Resonance Imaging (1x), Network Neuroscience (1x), Psychological Medicine (1x), BMC Neuroscience (1x), Scientific Reports (1x), Human Brain Mapping (1x), Drug and Alcohol Dependence (1x)
-```
-
 
 ## Publications 
 ## Peer-reviewed journal articles 
@@ -57,10 +52,13 @@ Summer 2018          Summer School in Computational Sensory-Motor Neuroscience (
 20. **Yang, F. N.,** Picchioni, D., & Duyn, J. H. (2023). Effects of sleep-corrected social jetlag on measures of mental health, cognitive ability, and brain functional connectivity in early adolescence. Sleep. (accepted)
 
 
-## Submitted or In-Revision Peer-reviewed journal articles
+## Manuscript under review or in preparation
 1.	**Yang, F.N.**,<sup>1</sup> Xie, L.,<sup>1</sup> Galli, O., Detre, J. A., Wolk, D. A., & Rao, H. (2019). Preserved global cerebral blood flow accounts for youthful processing speed in older adults. bioRxiv, 665935. (<sup>1</sup> contributed equally)
 
 
-
+## National Service 
+```
+2018-present	Ad Hoc Reviewer, Frontiers in Human Neuroscience/Neurology/ Neuroimaging (3x), Journal of Magnetic Resonance Imaging (1x), Network Neuroscience (1x), Psychological Medicine (1x), BMC Neuroscience (1x), Scientific Reports (1x), Human Brain Mapping (1x), Drug and Alcohol Dependence (1x)
+```
 
 
