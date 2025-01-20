@@ -1,5 +1,5 @@
 ## CURRICULUM VITAE
-### Fan Nils Yang, PHD
+### Fan Nils Yang, PhD
 
 
 ## Personal Statement
