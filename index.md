@@ -80,7 +80,7 @@ Too little sleep may jeopardize young kids’ development, study finds. The Wash
 Ad Hoc Reviewer	
 BMC Neuroscience; Drug and Alcohol Dependence; Frontiers in Human Neuroscience;
 Frontiers in Neurology; Frontiers in Neuroimaging; Human Brain Mapping;
-Journal of Magnetic Resonance Imaging; Network Neuroscience;
+Journal of Magnetic Resonance Imaging; Network Neuroscience; SLEEP;
 Psychological Medicine; Scientific Reports; Imaging Neuroscience; The Lancet Child & Adolescent Health.
 ```
 ```
