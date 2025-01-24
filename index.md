@@ -38,7 +38,7 @@ Email:				nilsyang106@gmail.com & nils.yang@nih.gov
 
 ## Publications 
 ## Peer-reviewed journal articles 
-1.	 **Yang, F. N.**, Picchioni, D., de Zwart, J.A., Wang, Y., van Gelderen, P., &amp; Duyn, J. H. (2024) Reproducible, data-driven characterization of sleep based on brain dynamics and transitions from whole-night fMRI eLife, 13:RP98739. https://doi.org/10.7554/eLife.98739![image](https://github.com/user-attachments/assets/f50e94db-b6aa-4b4a-b87a-3dd31371ea94)
+1.	 **Yang, F. N.**, Picchioni, D., de Zwart, J.A., Wang, Y., van Gelderen, P., &amp; Duyn, J. H. (2024) Reproducible, data-driven characterization of sleep based on brain dynamics and transitions from whole-night fMRI eLife, 13:RP98739. https://doi.org/10.7554/eLife.98739
 2. 	**Yang, F.N.**, Picchioni, D., &amp; Duyn, J.H. (2023). Effects of sleep-corrected social jetlag on measures of mental health, cognitive ability, and brain functional connectivity in early adolescence. Sleep, zsad259. https://doi.org/10.1093/sleep/zsad259
 3. 	**Yang, F.N.**, Liu, T.T., &amp; Wang, Z. Corticostriatal connectivity mediates the reciprocal relationship between sleep and impulsivity in early adolescents. (2023). Journal of Child Psychology and Psychiatry, 64(11), 1545–1554. https://doi.org/10.1111/jcpp.13843
 4. 	Jiang, X., Dahmani, S., Bronshteyn, M., **Yang, F. N.**, Ryan, J. P., Gallagher Jr, R. C., ... & Turkeltaub, P. E. (2022). Cingulate transcranial direct current stimulation in adults with HIV. PloS one, 17(6), e0269491.
