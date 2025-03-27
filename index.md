@@ -1,7 +1,6 @@
 ## CURRICULUM VITAE
 ### Fan Nils Yang, PhD
 
-https://github.com/nilsyang/nilsyang.github.io/blob/main/index.md
 ## Personal Statement
 	
 Dr. Fan Nils Yang is a cognitive neuroscientist specializing in studying human sleep and brain function. His research examines the impact of sleep on the human brain and behavior, employing a diverse range of methodologies, including psychophysics, computational modeling, machine learning, and neuroimaging techniques such as resting-state functional MRI, arterial spin labeling (ASL) MRI, and structural MRI. The overarching goal of his research is to: (1) uncover the long-lasting effects of inadequate sleep—such as insufficient or poor-quality sleep—on adolescent brain development and cognitive function, (2) investigate the link between inadequate sleep, heightened impulsivity, and subsequent substance use, and (3) using personalized interventions to improve sleep-related developmental outcomes for adolescents.
