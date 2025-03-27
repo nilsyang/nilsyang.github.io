@@ -22,7 +22,7 @@ Email:				nilsyang106@gmail.com & nils.yang@nih.gov
 ## Education
 ```
 2015.12– 2018.11	Visiting Ph.D. Student, Department of Neurology & Center for Functional Neuroimaging, University of Pennsylvania
-2014.9 – 2018.6	Ph.D., Cognitive Neuroscience, Sun Yat-Sen University, Guangzhou, China, 
+2014.9 – 2018.6		Ph.D., Cognitive Neuroscience, Sun Yat-Sen University, Guangzhou, China 
 2011.9 – 2014.6		M.S., Biological Psychology, Capital Normal University, Beijing, China
 2006.9 – 2010.6		B.S., Chemistry & Clinical Psychology, Southwest University, Chongqing, China
 ```
