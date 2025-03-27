@@ -101,7 +101,6 @@ Editorial Board of Neuroimaging for Cognitive Neuroscience, Frontiers in Neuroim
 ```
 2024		Trainee Merit Reward, Sleep Meeting 2024
 2018		Fellowship, Summer School in Computational Sensory-Motor Neuroscience 
-
 2015		International Program Fellowship for Ph.D. Candidates, Sun Yat-Sen University 
 2013		Postgraduate Research Fellowship, Capital Normal University 
 ```
