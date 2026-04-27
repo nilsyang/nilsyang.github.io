@@ -1,0 +1,214 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const {
+  title,
+  description = 'Fan (Nils) Yang, Ph.D — Neuroscientist & Brain Imaging Researcher at NINDS, NIH',
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
+
+<style is:global>
+  :root {
+    --color-fg: #111111;
+    --color-bg: #ffffff;
+    --color-primary: #5857ff;
+    --color-secondary: #6b6a6a;
+    --color-tertiary: #e2e2e2;
+    --color-quaternary: #f3f2f2;
+    --gutter: clamp(32px, 5vw, 64px);
+    --sidebar-width: 280px;
+    --content-width: 740px;
+  }
+
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Albert Sans', ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: clamp(17px, 1.5vw, 21px);
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    line-height: 1.5;
+    color: var(--color-fg);
+    background: var(--color-bg);
+    margin: 0;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    line-height: 1.15;
+    margin: 0;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+    transition: color 0.15s ease;
+  }
+
+  a:hover {
+    color: var(--color-primary);
+    text-decoration: none;
+  }
+
+  /* Site layout: sticky left sidebar + scrolling main */
+  .site-layout {
+    display: grid;
+    grid-template-columns: var(--sidebar-width) 1fr;
+    min-height: 100vh;
+  }
+
+  /* Sidebar */
+  .site-sidebar {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+    border-right: 1px solid var(--color-tertiary);
+    padding: var(--gutter) clamp(20px, 2.5vw, 32px);
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Main */
+  .site-main {
+    min-width: 0;
+  }
+
+  /* Section inner */
+  .section-inner {
+    max-width: var(--content-width);
+    padding: clamp(48px, 8vw, 96px) var(--gutter);
+  }
+
+  /* Section labels */
+  .section-label {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-secondary);
+    margin-bottom: 1rem;
+  }
+
+  /* Pill button */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5em;
+    padding: 0.55em 1.35em;
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: clamp(15px, 1.3vw, 17px);
+    letter-spacing: -0.01em;
+    line-height: 1.15;
+    text-decoration: none;
+    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+    cursor: pointer;
+    border: none;
+  }
+
+  .btn-primary {
+    background: var(--color-primary);
+    color: #fff;
+  }
+
+  .btn-primary:hover {
+    background: #3f3ef0;
+    color: #fff;
+  }
+
+  .btn-outline {
+    background: transparent;
+    color: var(--color-fg);
+    box-shadow: inset 0 0 0 1.5px var(--color-tertiary);
+  }
+
+  .btn-outline:hover {
+    box-shadow: inset 0 0 0 1.5px var(--color-primary);
+    color: var(--color-primary);
+  }
+
+  /* Form inputs */
+  input, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    color: var(--color-fg);
+    background: var(--color-bg);
+    border: 0.1rem solid var(--color-tertiary);
+    border-radius: 0.4rem;
+    padding: 0.5em 0.75em;
+    width: 100%;
+    transition: border-color 0.15s ease;
+    outline: none;
+  }
+
+  input:focus, textarea:focus, select:focus {
+    border-color: var(--color-primary);
+  }
+
+  /* Divider */
+  .divider {
+    border: none;
+    border-top: 1px solid var(--color-tertiary);
+  }
+
+  /* Tag chip */
+  .tag {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 0.2em 0.75em;
+    border-radius: 999px;
+    background: var(--color-quaternary);
+    color: var(--color-secondary);
+    letter-spacing: 0;
+  }
+
+  /* Mobile: stack sidebar above content */
+  @media (max-width: 782px) {
+    .site-layout {
+      grid-template-columns: 1fr;
+    }
+
+    .site-sidebar {
+      position: relative;
+      height: auto;
+      border-right: none;
+      border-bottom: 1px solid var(--color-tertiary);
+    }
+  }
+</style>

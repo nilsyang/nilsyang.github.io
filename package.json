@@ -1,0 +1,17 @@
+{
+  "name": "nils-yang-portfolio",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/tailwind": "^5.1.0",
+    "astro": "^6.1.9",
+    "tailwindcss": "^3.4.14"
+  }
+}

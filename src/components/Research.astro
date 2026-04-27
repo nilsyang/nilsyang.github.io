@@ -1,0 +1,135 @@
+---
+interface Project {
+  title: string;
+  year: string;
+  venue: string;
+  description: string;
+  tags: string[];
+  doi: string | null;
+  featured: boolean;
+}
+
+const projects: Project[] = [
+  {
+    title: 'Whole-Night Sleep fMRI Characterization',
+    year: '2024',
+    venue: 'eLife',
+    description:
+      'A reproducible, data-driven framework for characterizing sleep from whole-night fMRI brain dynamics — enabling continuous, objective sleep phenotyping beyond conventional EEG staging.',
+    tags: ['fMRI', 'Sleep Staging', 'Data-Driven'],
+    doi: 'https://doi.org/10.7554/eLife.98739',
+    featured: true,
+  },
+  {
+    title: 'REM Sleep Thalamo-Cortical Connectivity',
+    year: '2025',
+    venue: 'Imaging Neuroscience',
+    description:
+      'Increased intra-thalamic and thalamo-cortical functional connections during human REM sleep via fMRI — advancing understanding of the neural substrates of dreaming.',
+    tags: ['REM Sleep', 'Thalamus', 'Connectivity'],
+    doi: 'https://doi.org/10.1162/IMAG.a.1026',
+    featured: true,
+  },
+  {
+    title: 'Sleep & Adolescent Neurodevelopment',
+    year: '2022',
+    venue: 'The Lancet Child & Adolescent Health',
+    description:
+      'Cover article. Propensity-matched longitudinal study of 8,300+ U.S. adolescents showing insufficient sleep significantly impairs neurocognitive development. Altmetric 2,511. Featured in The Washington Post.',
+    tags: ['ABCD Study', 'Longitudinal', 'Public Health'],
+    doi: 'https://doi.org/10.1016/S2352-4642(22)00188-2',
+    featured: true,
+  },
+  {
+    title: 'Connectome Fingerprinting During Sleep',
+    year: 'In Revision',
+    venue: 'fMRI-EEG Study',
+    description:
+      'Individual brain connectivity patterns become more uniquely identifiable during sleep, with implications for precision neuroscience and individual differences research.',
+    tags: ['Fingerprinting', 'EEG-fMRI'],
+    doi: null,
+    featured: false,
+  },
+  {
+    title: 'Social Jetlag & Adolescent Mental Health',
+    year: '2023',
+    venue: 'Sleep',
+    description:
+      'Misalignment between biological and social sleep timing (social jetlag) measurably impacts mental health, cognitive performance, and brain functional connectivity in early adolescence.',
+    tags: ['Social Jetlag', 'Mental Health'],
+    doi: 'https://doi.org/10.1093/sleep/zsad259',
+    featured: false,
+  },
+  {
+    title: 'Sleep–Impulsivity & Corticostriatal Circuits',
+    year: '2023',
+    venue: 'J. Child Psychology & Psychiatry',
+    description:
+      'Corticostriatal connectivity mediates the bidirectional relationship between sleep duration and impulsivity in early adolescents, linking neural circuitry to behavior.',
+    tags: ['Corticostriatal', 'Impulsivity'],
+    doi: 'https://doi.org/10.1111/jcpp.13843',
+    featured: false,
+  },
+];
+---
+
+<section id="research" style="border-top: 1px solid var(--color-tertiary);">
+  <div class="section-inner">
+    <p class="section-label">Research</p>
+    <h2 style="font-size: clamp(27px, 3vw, 48px); margin-bottom: 1rem;">Key Projects</h2>
+    <p style="color: var(--color-secondary); max-width: 560px; margin: 0 0 2.5rem;">
+      My research spans sleep neuroscience, whole-brain fMRI methodology, and the developmental
+      impact of sleep on adolescent cognition and mental health.
+    </p>
+
+    <div style="
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.25rem;
+    ">
+      {projects.map(({ title, year, venue, description, tags, doi, featured }) => (
+        <article style={`
+          border: 1px solid ${featured ? 'var(--color-primary)' : 'var(--color-tertiary)'};
+          border-radius: 8px;
+          padding: 1.5rem;
+          display: flex;
+          flex-direction: column;
+          background: ${featured ? '#fafaff' : 'var(--color-bg)'};
+          transition: border-color 0.15s ease, box-shadow 0.15s ease;
+        `}
+          onmouseenter="this.style.borderColor='var(--color-primary)'; this.style.boxShadow='0 0 0 1px var(--color-primary)';"
+          onmouseleave={`this.style.borderColor='${featured ? 'var(--color-primary)' : 'var(--color-tertiary)'}'; this.style.boxShadow='none';`}
+        >
+          <div style="display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 0.75rem; gap: 0.5rem;">
+            <span style="font-size: 13px; color: var(--color-secondary); font-weight: 500;">{year}</span>
+            {featured && (
+              <span style="font-size: 11px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; color: var(--color-primary);">
+                Featured
+              </span>
+            )}
+          </div>
+          <h3 style="font-size: clamp(16px, 1.4vw, 18px); margin-bottom: 0.35rem; line-height: 1.25;">
+            {title}
+          </h3>
+          <p style="font-size: 13px; color: var(--color-secondary); font-style: italic; margin: 0 0 0.75rem;">{venue}</p>
+          <p style="font-size: 14px; color: var(--color-secondary); line-height: 1.55; flex-grow: 1; margin: 0;">
+            {description}
+          </p>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.35rem; margin-top: 1rem;">
+            {tags.map((tag) => <span class="tag">{tag}</span>)}
+          </div>
+          {doi && (
+            <a
+              href={doi}
+              target="_blank"
+              rel="noopener noreferrer"
+              style="display: inline-block; margin-top: 1rem; font-size: 13px; font-family: ui-monospace, monospace; color: var(--color-primary); text-decoration: none;"
+            >
+              View publication →
+            </a>
+          )}
+        </article>
+      ))}
+    </div>
+  </div>
+</section>

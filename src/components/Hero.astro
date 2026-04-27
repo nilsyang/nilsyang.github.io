@@ -1,0 +1,79 @@
+---
+---
+
+<section id="about">
+  <div class="section-inner">
+    <p class="section-label">About</p>
+
+    <h1 style="
+      font-size: clamp(36px, 5vw, 64px);
+      letter-spacing: -0.03em;
+      line-height: 1.05;
+      margin-bottom: 1.25rem;
+    ">
+      Neuroscientist studying the sleeping brain.
+    </h1>
+
+    <div style="max-width: 600px;">
+      <p style="margin: 0 0 1em; color: var(--color-fg);">
+        I am a Research Fellow at the National Institute of Neurological Disorders and Stroke (NINDS),
+        NIH, working with Dr. Jeff Duyn. My research uses whole-brain functional MRI to understand
+        the neuroscience of sleep — from data-driven characterization of sleep stages to how sleep
+        shapes adolescent brain development, cognition, and mental health.
+      </p>
+      <p style="margin: 0 0 1.75em; color: var(--color-secondary);">
+        My work has appeared in <em>The Lancet Child &amp; Adolescent Health</em>, <em>eLife</em>,
+        <em>Sleep</em>, <em>NeuroImage</em>, and <em>The Washington Post</em>.
+        A single study on adolescent sleep earned an Altmetric score of 2,511 and 200+ news mentions.
+      </p>
+    </div>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 3rem;">
+      <a href="#contact" class="btn btn-primary">Get in Touch</a>
+      <a href="/CV_NilsYang04212026.pdf" target="_blank" class="btn btn-outline">Download CV</a>
+      <a
+        href="https://scholar.google.com/citations?user=YOUR_ID"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn btn-outline"
+      >
+        Google Scholar
+      </a>
+    </div>
+
+    <hr class="divider" style="margin-bottom: 2rem;" />
+
+    <!-- At-a-glance grid -->
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 2rem;">
+      <div>
+        <p class="section-label" style="margin-bottom: 0.5rem;">Position</p>
+        <p style="margin: 0; font-weight: 600; font-size: clamp(15px, 1.3vw, 17px);">Research Fellow</p>
+        <p style="margin: 0; color: var(--color-secondary); font-size: 14px;">NINDS, NIH · 2023–present</p>
+        <p style="margin: 0.25rem 0 0; color: var(--color-secondary); font-size: 14px;">Advisor: Jeff Duyn</p>
+      </div>
+
+      <div>
+        <p class="section-label" style="margin-bottom: 0.5rem;">Education</p>
+        <p style="margin: 0; font-weight: 600; font-size: clamp(15px, 1.3vw, 17px);">Ph.D., Cognitive Neuroscience</p>
+        <p style="margin: 0; color: var(--color-secondary); font-size: 14px;">Sun Yat-Sen University, 2018</p>
+        <p style="margin: 0.25rem 0 0; color: var(--color-secondary); font-size: 14px;">Visiting PhD, UPenn (2015–2018)</p>
+      </div>
+
+      <div>
+        <p class="section-label" style="margin-bottom: 0.5rem;">Recognition</p>
+        <p style="margin: 0; font-weight: 600; font-size: clamp(15px, 1.3vw, 17px);">Trainee Merit Reward</p>
+        <p style="margin: 0; color: var(--color-secondary); font-size: 14px;">Sleep Meeting 2024</p>
+        <p style="margin: 0.25rem 0 0; color: var(--color-secondary); font-size: 14px;">Performance Cash Award, NINDS</p>
+      </div>
+
+      <div>
+        <p class="section-label" style="margin-bottom: 0.5rem;">Research Focus</p>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.4rem;">
+          {['Sleep fMRI', 'Brain Connectivity', 'Adolescent Dev.', 'ASL/CBF'].map((tag) => (
+            <span class="tag">{tag}</span>
+          ))}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

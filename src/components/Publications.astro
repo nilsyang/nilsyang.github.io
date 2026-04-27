@@ -1,0 +1,178 @@
+---
+interface Publication {
+  authors: string;
+  year: number;
+  title: string;
+  journal: string;
+  volume: string;
+  doi: string | null;
+  highlight: boolean;
+  note?: string;
+}
+
+const publications: Publication[] = [
+  {
+    authors: 'Yang, F. N., Picchioni, D., de Zwart, J.A., van Gelderen, P., & Duyn, J. H.',
+    year: 2025,
+    title: 'Increased intra-thalamic and thalamo-cortical functional connections during fMRI of human REM sleep.',
+    journal: 'Imaging Neuroscience',
+    volume: '3',
+    doi: 'https://doi.org/10.1162/IMAG.a.1026',
+    highlight: true,
+  },
+  {
+    authors: 'Yang, F. N., Picchioni, D., de Zwart, J.A., Wang, Y., van Gelderen, P., & Duyn, J. H.',
+    year: 2024,
+    title: 'Reproducible, data-driven characterization of sleep based on brain dynamics and transitions from whole-night fMRI.',
+    journal: 'eLife',
+    volume: '13:RP98739',
+    doi: 'https://doi.org/10.7554/eLife.98739',
+    highlight: true,
+  },
+  {
+    authors: 'Yang, F.N., Picchioni, D., & Duyn, J.H.',
+    year: 2023,
+    title: 'Effects of sleep-corrected social jetlag on measures of mental health, cognitive ability, and brain functional connectivity in early adolescence.',
+    journal: 'Sleep',
+    volume: 'zsad259',
+    doi: 'https://doi.org/10.1093/sleep/zsad259',
+    highlight: false,
+  },
+  {
+    authors: 'Yang, F.N., Liu, T.T., & Wang, Z.',
+    year: 2023,
+    title: 'Corticostriatal connectivity mediates the reciprocal relationship between sleep and impulsivity in early adolescents.',
+    journal: 'Journal of Child Psychology and Psychiatry',
+    volume: '64(11), 1545–1554',
+    doi: 'https://doi.org/10.1111/jcpp.13843',
+    highlight: false,
+  },
+  {
+    authors: 'Yang, F.N.*, Xie, W.*, & Wang, Z.',
+    year: 2022,
+    title: 'Effects of sleep duration on neurocognitive development in U.S. early adolescents: a propensity score matched, longitudinal, observational study.',
+    journal: 'The Lancet Child & Adolescent Health',
+    volume: '6(10), 705–712',
+    doi: 'https://doi.org/10.1016/S2352-4642(22)00188-2',
+    highlight: true,
+    note: 'Cover Article · Altmetric Score: 2,511 · 200+ News Mentions · 13,000 Social Media Engagements',
+  },
+  {
+    authors: 'Yang, F.N., Liu, T.T., & Wang, Z.',
+    year: 2022,
+    title: 'Functional connectome mediates the association between sleep disturbance and mental health in preadolescence.',
+    journal: 'Human Brain Mapping',
+    volume: '43(6), 2041–2050',
+    doi: 'https://doi.org/10.1002/hbm.25772',
+    highlight: false,
+  },
+  {
+    authors: 'Yang, F.N., Hassanzadeh-Behbahani, S.M., et al.',
+    year: 2022,
+    title: 'The impacts of HIV-infection, age, and education on functional brain networks in adults with HIV.',
+    journal: 'Journal of NeuroVirology',
+    volume: '28(2), 265–273',
+    doi: 'https://doi.org/10.1007/s13365-021-01039-y',
+    highlight: false,
+  },
+  {
+    authors: 'Yang, F.N., Hassanzadeh-Behbahani, S., Bronshteyn, M., et al.',
+    year: 2021,
+    title: 'Connectome-based prediction of global cognitive performance in people with HIV.',
+    journal: 'NeuroImage: Clinical',
+    volume: '30, 102677',
+    doi: 'https://doi.org/10.1016/j.nicl.2021.102677',
+    highlight: false,
+  },
+  {
+    authors: 'Chai, Y., Fang, Z., Yang, F.N., et al.',
+    year: 2020,
+    title: 'Two nights of recovery sleep restores hippocampal connectivity but not episodic memory after total sleep deprivation.',
+    journal: 'Scientific Reports',
+    volume: '10(1), 1–11',
+    doi: 'https://doi.org/10.1038/s41598-020-65086-x',
+    highlight: false,
+  },
+  {
+    authors: 'Yang, F.N., Xu, S., Spaeth, A., Galli, O., et al.',
+    year: 2019,
+    title: 'Test-retest reliability of cerebral blood flow for assessing brain function at rest and during a vigilance task.',
+    journal: 'NeuroImage',
+    volume: '193, 157–166',
+    doi: 'https://doi.org/10.1016/j.neuroimage.2019.03.016',
+    highlight: false,
+  },
+  {
+    authors: 'Yang, F.N., Xu, S., Chai, Y., Basner, M., Dinges, D.F., & Rao, H.',
+    year: 2018,
+    title: 'Sleep deprivation enhances inter-stimulus interval effect on vigilant attention performance.',
+    journal: 'Sleep',
+    volume: '41(12), zsy189',
+    doi: 'https://doi.org/10.1093/sleep/zsy189',
+    highlight: false,
+  },
+];
+---
+
+<section id="publications" style="border-top: 1px solid var(--color-tertiary);">
+  <div class="section-inner">
+    <p class="section-label">Publications</p>
+    <h2 style="font-size: clamp(27px, 3vw, 48px); margin-bottom: 1rem;">Selected Publications</h2>
+    <p style="color: var(--color-secondary); margin: 0 0 2.5rem;">
+      22 peer-reviewed articles including 13 as first author.
+      <a
+        href="https://scholar.google.com/citations?user=YOUR_ID"
+        target="_blank"
+        rel="noopener noreferrer"
+        style="color: var(--color-primary);"
+      >
+        Full list on Google Scholar →
+      </a>
+    </p>
+
+    <div style="display: flex; flex-direction: column; gap: 0;">
+      {publications.map(({ authors, year, title, journal, volume, doi, highlight, note }, i) => (
+        <div style={`
+          padding: 1.25rem 0;
+          border-top: 1px solid var(--color-tertiary);
+          ${i === publications.length - 1 ? 'border-bottom: 1px solid var(--color-tertiary);' : ''}
+          display: grid;
+          grid-template-columns: 3rem 1fr;
+          gap: 1rem;
+          align-items: start;
+        `}>
+          <span style="font-size: 13px; color: var(--color-secondary); font-weight: 500; padding-top: 0.15em; font-family: ui-monospace, monospace;">
+            {year}
+          </span>
+          <div>
+            <p style="margin: 0 0 0.3rem; font-weight: 600; font-size: clamp(15px, 1.3vw, 17px); line-height: 1.3; letter-spacing: -0.01em;">
+              {title}
+            </p>
+            <p style="margin: 0 0 0.3rem; font-size: 14px; color: var(--color-secondary);">{authors}</p>
+            <p style="margin: 0; font-size: 14px;">
+              <em style="font-style: normal; color: var(--color-primary); font-weight: 500;">{journal}</em>
+              {volume && <span style="color: var(--color-secondary);">, {volume}</span>}
+            </p>
+            {note && (
+              <p style="margin: 0.4rem 0 0; font-size: 13px; color: #b45309; font-weight: 600;">{note}</p>
+            )}
+            {doi && (
+              <a
+                href={doi}
+                target="_blank"
+                rel="noopener noreferrer"
+                style="display: inline-block; margin-top: 0.4rem; font-size: 12px; font-family: ui-monospace, monospace; color: var(--color-secondary); text-decoration: none;"
+              >
+                {doi.replace('https://', '')}
+              </a>
+            )}
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <p style="font-size: 13px; color: var(--color-secondary); margin-top: 1.25rem;">
+      * denotes equal contribution
+    </p>
+  </div>
+</section>

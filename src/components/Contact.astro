@@ -1,0 +1,107 @@
+---
+---
+
+<section id="contact" style="border-top: 1px solid var(--color-tertiary);">
+  <div class="section-inner">
+    <p class="section-label">Contact</p>
+    <h2 style="font-size: clamp(27px, 3vw, 48px); margin-bottom: 1rem;">Get in Touch</h2>
+    <p style="color: var(--color-secondary); max-width: 480px; margin: 0 0 2.5rem;">
+      I welcome research collaborations, speaking invitations, media enquiries,
+      and general questions about sleep neuroscience.
+    </p>
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start;">
+
+      <!-- Info -->
+      <div>
+        <div style="display: flex; flex-direction: column; gap: 1.25rem; margin-bottom: 2rem;">
+          <div>
+            <p style="font-size: 13px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--color-secondary); margin: 0 0 0.3rem;">Email</p>
+            <span style="color: var(--color-fg); font-weight: 500;">nilsyang106 at gmail dot com</span>
+          </div>
+          <div>
+            <p style="font-size: 13px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--color-secondary); margin: 0 0 0.3rem;">Address</p>
+            <span style="color: var(--color-fg); font-weight: 500; line-height: 1.5;">
+              Bldg. 10, Rm. B1D-723A<br />
+              10 Center Drive<br />
+              Bethesda, MD 20892
+            </span>
+          </div>
+        </div>
+
+        <hr class="divider" style="margin-bottom: 1.5rem;" />
+
+        <p style="font-size: 13px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--color-secondary); margin: 0 0 0.75rem;">Affiliations</p>
+        <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.3rem;">
+          {['Organization for Human Brain Mapping', 'Society for Neuroscience', 'Sleep Research Society', 'Sigma Xi'].map((org) => (
+            <li style="font-size: 14px; color: var(--color-secondary);">{org}</li>
+          ))}
+        </ul>
+      </div>
+
+      <!-- Form -->
+      <!--
+        Uses FormSubmit.co — no backend required.
+        First submission will send you a confirmation email to activate.
+      -->
+      <form
+        action="https://formsubmit.co/nilsyang106@gmail.com"
+        method="POST"
+        style="display: flex; flex-direction: column; gap: 1.25rem;"
+      >
+        <input type="hidden" name="_subject" value="Portfolio Contact" />
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_template" value="table" />
+
+        <div>
+          <label for="name" style="display: block; font-size: 13px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--color-secondary); margin-bottom: 0.4rem;">
+            Name
+          </label>
+          <input type="text" id="name" name="name" required placeholder="Your name" />
+        </div>
+
+        <div>
+          <label for="email" style="display: block; font-size: 13px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--color-secondary); margin-bottom: 0.4rem;">
+            Email
+          </label>
+          <input type="email" id="email" name="email" required placeholder="your@email.com" />
+        </div>
+
+        <div>
+          <label for="subject" style="display: block; font-size: 13px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--color-secondary); margin-bottom: 0.4rem;">
+            Topic
+          </label>
+          <select id="subject" name="subject">
+            <option value="Research Collaboration">Research Collaboration</option>
+            <option value="Speaking Invitation">Speaking Invitation</option>
+            <option value="Media Enquiry">Media Enquiry</option>
+            <option value="General Question">General Question</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="message" style="display: block; font-size: 13px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--color-secondary); margin-bottom: 0.4rem;">
+            Message
+          </label>
+          <textarea id="message" name="message" required rows="5" placeholder="Your message..." style="resize: vertical;"></textarea>
+        </div>
+
+        <div>
+          <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">
+            Send Message
+          </button>
+        </div>
+      </form>
+
+    </div>
+  </div>
+</section>
+
+<style>
+  @media (max-width: 640px) {
+    section > div > div:last-of-type {
+      grid-template-columns: 1fr !important;
+      gap: 2rem !important;
+    }
+  }
+</style>

@@ -1,0 +1,78 @@
+---
+const links = [
+  { label: 'About', href: '#about' },
+  { label: 'Research', href: '#research' },
+  { label: 'Publications', href: '#publications' },
+  { label: 'Contact', href: '#contact' },
+];
+---
+
+<aside class="site-sidebar">
+  <!-- Identity -->
+  <div style="margin-bottom: 2rem;">
+    <a
+      href="#about"
+      style="text-decoration: none; display: block; margin-bottom: 0.35rem;"
+    >
+      <span style="font-size: clamp(16px, 1.4vw, 18px); font-weight: 700; letter-spacing: -0.02em; color: var(--color-fg);">
+        Fan (Nils) Yang
+      </span>
+      <span style="color: var(--color-primary);">, Ph.D</span>
+    </a>
+    <p style="font-size: 13px; color: var(--color-secondary); line-height: 1.4; margin: 0;">
+      Research Fellow<br />
+      NINDS, NIH
+    </p>
+  </div>
+
+  <hr class="divider" style="margin-bottom: 1.5rem;" />
+
+  <!-- Navigation -->
+  <nav aria-label="Main navigation" style="margin-bottom: auto;">
+    <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.15rem;">
+      {links.map(({ label, href }) => (
+        <li>
+          <a
+            href={href}
+            style="display: block; padding: 0.35em 0; font-size: clamp(15px, 1.3vw, 17px); font-weight: 500; color: var(--color-fg);"
+          >
+            {label}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </nav>
+
+  <!-- Bottom links -->
+  <div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--color-tertiary);">
+    <div style="display: flex; flex-direction: column; gap: 0.4rem;">
+      <a
+        href="https://www.linkedin.com/in/nilsyang/"
+        target="_blank"
+        rel="noopener noreferrer"
+        style="font-size: 13px; color: var(--color-secondary);"
+      >
+        LinkedIn
+      </a>
+      <a
+        href="https://orcid.org/YOUR-ORCID-ID"
+        target="_blank"
+        rel="noopener noreferrer"
+        style="font-size: 13px; color: var(--color-secondary);"
+      >
+        ORCID
+      </a>
+      <a
+        href="https://scholar.google.com/citations?user=YOUR_ID"
+        target="_blank"
+        rel="noopener noreferrer"
+        style="font-size: 13px; color: var(--color-secondary);"
+      >
+        Google Scholar
+      </a>
+      <span style="font-size: 13px; color: var(--color-secondary);">
+        nilsyang106 at gmail dot com
+      </span>
+    </div>
+  </div>
+</aside>
