@@ -41,9 +41,8 @@ const {
     --color-secondary: #6b6a6a;
     --color-tertiary: #e2e2e2;
     --color-quaternary: #f3f2f2;
-    --gutter: clamp(32px, 5vw, 64px);
-    --sidebar-width: 280px;
-    --content-width: 740px;
+    --gutter: clamp(24px, 4vw, 56px);
+    --sidebar-width: clamp(200px, 18vw, 260px);
   }
 
   *, *::before, *::after {
@@ -110,8 +109,7 @@ const {
 
   /* Section inner */
   .section-inner {
-    max-width: var(--content-width);
-    padding: clamp(48px, 8vw, 96px) var(--gutter);
+    padding: clamp(40px, 6vw, 80px) var(--gutter);
   }
 
   /* Section labels */
