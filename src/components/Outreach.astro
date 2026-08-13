@@ -1,0 +1,116 @@
+---
+interface Coverage {
+  outlet: string;
+  headline: string;
+  year: string;
+  href: string;
+  note?: string;
+}
+
+const coverage: Coverage[] = [
+  {
+    outlet: 'The Washington Post',
+    headline: 'Too little sleep may jeopardize young kids’ development, study finds',
+    year: '2022',
+    href: 'https://www.washingtonpost.com/health/2022/08/09/sleep-children-brain-development/',
+    note: 'Coverage of the ABCD adolescent-sleep study · Altmetric 2,511 · 200+ news mentions · 13,000+ social shares',
+  },
+];
+---
+
+<section id="outreach" style="border-top: 1px solid var(--color-tertiary);">
+  <div class="section-inner">
+    <p class="section-label">Outreach</p>
+    <h2 style="font-size: clamp(27px, 3vw, 48px); margin-bottom: 1rem;">Science Communication</h2>
+    <p style="color: var(--color-secondary); margin: 0 0 2.5rem; max-width: 60ch;">
+      Beyond the lab, I work to make sleep and brain science understandable to the public —
+      writing for a general audience and helping translate research findings for the press.
+    </p>
+
+    <div style="
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr);
+      gap: 1.25rem;
+      align-items: stretch;
+    " class="outreach-grid">
+
+      <!-- Zhihu / public writing -->
+      <article style="
+        border: 1px solid var(--color-primary);
+        border-radius: 8px;
+        padding: 1.75rem;
+        background: #fafaff;
+        display: flex;
+        flex-direction: column;
+      ">
+        <p class="section-label" style="margin-bottom: 0.75rem;">Public Writing</p>
+        <p style="
+          font-size: clamp(40px, 6vw, 60px);
+          font-weight: 700;
+          letter-spacing: -0.03em;
+          line-height: 1;
+          color: var(--color-primary);
+          margin: 0;
+        ">
+          181,401
+        </p>
+        <p style="margin: 0.35rem 0 1rem; font-size: 14px; color: var(--color-secondary);">
+          followers on Zhihu · as of Aug 2026
+        </p>
+        <p style="font-size: 14px; color: var(--color-secondary); line-height: 1.55; margin: 0; flex-grow: 1;">
+          Since 2014 I have written science communication on
+          <a href="https://www.zhihu.com/" target="_blank" rel="noopener noreferrer" style="color: var(--color-primary);">Zhihu</a>,
+          a leading Chinese knowledge-sharing platform, covering sleep, neuroscience, and research
+          methods for a general audience.
+        </p>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.35rem; margin-top: 1.25rem;">
+          {['Sleep', 'Neuroscience', 'Research Methods'].map((tag) => <span class="tag">{tag}</span>)}
+        </div>
+      </article>
+
+      <!-- Media coverage -->
+      <article style="
+        border: 1px solid var(--color-tertiary);
+        border-radius: 8px;
+        padding: 1.75rem;
+        display: flex;
+        flex-direction: column;
+      ">
+        <p class="section-label" style="margin-bottom: 1rem;">In the Media</p>
+        <div style="display: flex; flex-direction: column; gap: 1.25rem;">
+          {coverage.map(({ outlet, headline, year, href, note }) => (
+            <div>
+              <div style="display: flex; align-items: baseline; justify-content: space-between; gap: 0.75rem; margin-bottom: 0.35rem;">
+                <span style="font-weight: 600; font-size: clamp(15px, 1.3vw, 17px);">{outlet}</span>
+                <span style="font-size: 13px; color: var(--color-secondary); font-family: ui-monospace, monospace;">{year}</span>
+              </div>
+              <a
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                style="font-size: 15px; color: var(--color-fg); line-height: 1.45; display: inline-block;"
+              >
+                “{headline}” →
+              </a>
+              {note && (
+                <p style="margin: 0.5rem 0 0; font-size: 13px; color: var(--color-secondary); line-height: 1.5;">{note}</p>
+              )}
+            </div>
+          ))}
+        </div>
+        <p style="margin: 1.5rem 0 0; padding-top: 1.25rem; border-top: 1px solid var(--color-tertiary); font-size: 14px; color: var(--color-secondary); line-height: 1.55;">
+          I also give public science talks and welcome media enquiries on sleep and brain health —
+          <a href="#contact" style="color: var(--color-primary);">get in touch</a>.
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<style>
+  @media (max-width: 640px) {
+    .outreach-grid {
+      grid-template-columns: 1fr !important;
+    }
+  }
+</style>
